@@ -10,7 +10,7 @@ from RADHIKA import LOGGER, nexichat
 from RADHIKA.plugins import ALL_MODULES
 from RADHIKA.plugins.Clone import restart_bots
 
-OWNER_ID = "7400383704"
+OWNER_ID = "7526369190"
 
 async def anony_boot():
     try:
@@ -42,7 +42,7 @@ async def anony_boot():
                 BotCommand("chatbot", "Enable or disable chatbot"),
                 BotCommand("status", "Check chatbot enable or disable in chat"),
                 BotCommand("shayri", "Get random shayri for love"),
-                BotCommand("repo", "Get chatbot source code"),
+            
             ]
         )
         LOGGER.info("Bot commands set successfully.")
